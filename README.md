@@ -14,15 +14,15 @@ ImportExcel module <br>
 # Parameters
 The script uses the following parameters to define file paths and email settings:
 
-$InputDirectory: Path to the input directory (default: "C:\Path\To\Input"). <br>
-$OutputDirectory: Path to the output directory (default: "C:\Path\To\Output"). <br>
-$CompletedDirectory: Path to the completed directory (default: "C:\Path\To\Completed"). <br>
-$TempDirectory: Path to the temporary directory (default: "C:\Path\To\Temp"). <br>
-$TemplateDirectory: Path to the template directory (default: "C:\Path\To\Template"). <br>
-$LogFilePath: Path to the log file (default: "C:\Path\To\Log\merge_log_$(Get-Date -Format 'yyyy-MM-dd').txt"). <br>
-$SmtpServer: SMTP server for sending emails (default: 'smtp.example.com'). <br>
-$EmailFrom: Email sender address (default: 'Sender <sender@example.com>'). <br>
-$EmailTo: Email recipient address (default: 'Recipient <recipient@example.com>'). <br>
+InputDirectory: Path to the input directory (default: "C:\Path\To\Input"). <br>
+OutputDirectory: Path to the output directory (default: "C:\Path\To\Output"). <br>
+CompletedDirectory: Path to the completed directory (default: "C:\Path\To\Completed"). <br>
+TempDirectory: Path to the temporary directory (default: "C:\Path\To\Temp"). <br>
+TemplateDirectory: Path to the template directory (default: "C:\Path\To\Template"). <br>
+LogFilePath: Path to the log file (default: "C:\Path\To\Log\merge_log_$(Get-Date -Format 'yyyy-MM-dd').txt"). <br>
+SmtpServer: SMTP server for sending emails (default: 'smtp.example.com'). <br>
+EmailFrom: Email sender address (default: 'Sender <sender@example.com>'). <br>
+EmailTo: Email recipient address (default: 'Recipient <recipient@example.com>'). <br>
 # Script Details
 The script performs the following steps:
 
