@@ -14,7 +14,7 @@ ImportExcel module
 # Parameters
 The script uses the following parameters to define file paths and email settings:
 
-$InputDirectory: Path to the input directory (default: "C:\Path\To\Input").
+$InputDirectory: Path to the input directory (default: "C:\Path\To\Input"). /n
 $OutputDirectory: Path to the output directory (default: "C:\Path\To\Output").
 $CompletedDirectory: Path to the completed directory (default: "C:\Path\To\Completed").
 $TempDirectory: Path to the temporary directory (default: "C:\Path\To\Temp").
