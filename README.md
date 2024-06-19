@@ -1,5 +1,5 @@
 # MailMerge Automation Script
-This PowerShell script automates the process of mail merging documents. It handles directory management, file processing, merging documents, archiving, and logging activities. It also sends email notifications about the status of the process.
+This PowerShell script automates the process of mail merging documents. 
 
 # Features
 Converts .xlsx files to .csv. <br>
